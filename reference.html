@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>MODE | REFERENCE</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="apple-touch-icon" sizes="180x180" href="image/icon/mode-icon-for-apple-touch-icon.png">
+     <link rel="icon" type="image/ico" href="image/icon/mode-favicon.ico">
+     <link rel="icon" type="image/png" sizes="32x32" href="image/icon/mode-favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="image/icon/mode-favicon-16x16.png">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+   box-sizing: border-box;
+  }
+.header {
+         background-color: #4E397B;
+         padding: 35px;
+        }
+.logo-header {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 50%;
+             }
+.second-level-header {
+                      padding: 20px;
+                      background-color: #382958;
+                      text-align: center;
+                     }
+.second-level-header-content {                           
+                              color: #ECE6DB;
+                              text-decoration: none;
+                              padding: 20px 30px;
+                              font-weight: bold;
+                             }
+.second-level-header-content:link {
+                                   color: #ECE6DB;
+                                  }
+.second-level-header-content:visited {
+                                      color: #ECE6DB;
+                                     }
+.second-level-header-content:hover {
+                                    color: #ECE6DB;
+                                    text-decoration: underline;
+                                    text-underline-offset: 5px;
+                                   }
+.second-level-header-content:active {
+                                     color: #ECE6DB;
+                                     text-decoration: underline;
+                                     text-underline-offset: 5px;
+                                    }
+.container {
+            padding: 0px 30px;
+           }
+.container-one {
+                margin-top: 50px;
+               }
+.container-two {
+                margin-top: 60px;
+               }
+.container-three {
+                  margin: 100px 0px;
+                 }
+.container-five {
+                 margin-top: 50px;
+                }
+.sub-container {
+                margin-bottom: 30px;
+               }
+.heading {
+          font-weight: bold;
+         }
+.sub-container-text {
+                     margin-bottom: 50px;
+                    }
+.modal-container {
+                  height: 100%;
+                  background-color: transparent;
+                 }
+.image-display-container {                    
+                          position: absolute;
+                          top: 50%;
+                          -ms-transform: translateY(-50%);
+                          transform: translateY(-50%);
+                         }
+.info {
+       background-color: rgba(13, 153, 255, 0.3);
+       border-left: 10px solid #0D99FF;
+       padding: 20px;
+      }
+.abstract {
+           margin: 100px 0px 20px;
+          }
+.row::after {
+             content: "";
+             clear: both;
+             display: table;
+            }
+.abstract-content {
+                   padding: 5px 0px;
+                  }
+.col-4 {
+        width: 100%;
+        float: left;
+       }
+.footer {
+         background-color: white;
+         padding: 50px 20px;
+         border-top: 2px solid #E6E6E6;
+        }
+.alignment-section {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    margin: 50px 0px 0px;
+                   }
+.footercontact {
+                padding: 0px 2.8px;
+               }
+.footercopyright {
+                  padding: 0px 2.8px 0px;
+                  margin: 50px 0px 0px;
+                 }
+.contact-heading,
+.location-heading,
+.copyrightsign {
+                font-weight: bold;
+               }
+.mail-container,
+.location-container {
+                     margin: 5px 0px 0px;
+                    }
+.contact-mail-link {
+                    text-decoration: none;
+                    padding: 10px 5px;
+                   }
+.contact-mail-link:link {
+                         color: #757575;
+                        }
+.contact-mail-link:visited {
+                            color: #757575;
+                           }
+.contact-mail-link:hover {
+                          color: #757575;
+                          text-decoration: underline;
+                          text-underline-offset: 5px;
+                         }
+.contact-mail-link:active {
+                           color: #757575;
+                           text-decoration: underline;
+                           text-underline-offset: 5px;
+                          }
+.location {
+           margin: 20px 0px 0px;
+          }
+.location-base {
+                padding: 10px 5px;
+               }
+#year {
+       font-weight: bold;
+      }
+
+@media only screen and (min-width: 768px) {
+                                           .container {
+                                                       padding: 0px 50px;
+                                                       margin: auto;
+                                                       width: 80%;
+                                                      }
+                                           .modal-container {
+                                                             height: 100%; 
+                                                             background-color: transparent;
+                                                            }
+                                           .alignment-section {
+                                                               flex-direction: row;
+                                                               align-items: flex-end;
+                                                              }
+                                           .footercopyright {
+                                                             padding: 0px 2.8px;
+                                                             margin: 0px 0px 0px;
+                                                            }
+                                          }   
+@media only screen and (min-width: 992px) {
+                                           .col-4 {
+                                                   width: 33.33%;
+                                                  }
+                                          }                                                  
+</style>
+
+<body>
+<div class="header">
+<svg width="50" height="51" viewBox="0 0 50 51" role="img" class="logo-header" aria-label="logo" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M47.5 25.0902C47.5 37.5749 37.4179 47.6803 25 47.6803C12.5821 47.6803 2.5 37.5749 2.5 25.0902C2.5 12.6055 12.5821 2.5 25 2.5C37.4179 2.5 47.5 12.6055 47.5 25.0902Z" fill="#221935" stroke="#221935" stroke-width="5"/>
+<path d="M6.98371 13.6973L25 2.29431L43.0164 13.6973V36.6679L25 48.0709L6.98371 36.6679V13.6973Z" fill="#ECE6DB" fill-opacity="0.8" stroke="#ECE6DB" stroke-width="2"/>
+<rect x="27.5666" y="10.9253" width="1.90114" height="14.8134" fill="#221935"/>
+<rect x="20.5323" y="23.3315" width="1.90114" height="14.8134" fill="#221935"/>
+<rect width="1.88042" height="11.6538" transform="matrix(0.768627 0.639698 -0.659493 0.751711 30.1191 30.7383)" fill="#221935"/>
+<rect width="1.88042" height="11.6538" transform="matrix(0.768627 0.639698 -0.659493 0.751711 26.1266 8.33203)" fill="#221935"/>
+</svg>
+</div>
+
+<div class="second-level-header">
+<a href="index.php" class="second-level-header-content">Home</a>
+</div>
+
+<div class="container">
+<div class="container-one">
+<div class="sub-container">
+<h1 class="heading">Types of Website</h1>
+</div>
+
+<div>
+<div>For prospective bloggers or business intending to establish an online presence, knowing what type of website you want to launch is crucial. Hence, below are various types of website.</div>
+</div>
+</div>
+
+<div class="container-two">
+<div class="sub-container">
+<h2 class="heading">E-Commerce Website</h2>
+</div>
+
+<div class="sub-container-text">
+<div>An e-commerce website is any site designed to facilitate the sale and purchase of products and services. Web pages of an e-commerce site includes general pages found on most website (homepage, contact page and about page) and more importantly, the shopping cart and payment sections are essential features that constitute an e-commerce website.</div>
+</div>
+
+<div class="">
+<img src="image/e-commerce_website_prototype.png" style="width:50%;cursor:pointer;border:1px solid #E6E6E6;" alt="web_image" onclick="document.getElementById('e-commerce-website-modal-image').style.display='block'">
+
+<div id="e-commerce-website-modal-image" class="w3-modal">
+<span onclick="document.getElementById('e-commerce-website-modal-image').style.display='none'" class="w3-button w3-black w3-display-topright">&times;</span>
+    
+<div class="w3-modal-content w3-animate-zoom modal-container">
+<div class="w3-display-container image-display-container">
+<img src="image/e-commerce_website_prototype.png" style="width:100%;">
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<div class="container-three">
+<div class="info">
+<div class="info-text">Images are prototypes used for illustrative purposes.</div>
+</div>
+</div>
+
+
+
+<div class="container-four">
+<div class="sub-container">
+<h2 class="heading">Blog</h2>
+</div>
+
+<div class="sub-container-text">
+<div>A blog is a term used to describe websites that maintain an ongoing chronicle of information. 
+Blogs are created for various reasons and focuses on one subject or a range of subjects.</div>
+<br>
+<div>
+<h5 style="font-weight:bold;">Features of a blog</h5>
+</div>
+
+<div>Blogs tend to have a few things in common (although there are exceptions):</div>
+
+<ul>
+<li>A main content area with articles listed chronologically, the newest on top.</li>
+<li>Links to articles on other websites.</li>
+<li>A way for people to leave comments about the articles.</li>
+</ul>
+
+<div>Some blogs may have additional features beyond these.</div>
+</div>
+
+<div class="">
+<img src="image/blog_prototype_01.png" style="width:50%;cursor:pointer;border:1px solid #E6E6E6;" onclick="document.getElementById('blog-modal-image').style.display='block'">
+
+<div id="blog-modal-image" class="w3-modal">
+<span onclick="document.getElementById('blog-modal-image').style.display='none'" class="w3-button w3-black w3-display-topright">&times;</span>
+
+<div class="w3-modal-content w3-animate-zoom modal-container">  
+<div class="w3-display-container image-display-container">
+<img src="image/blog_prototype_01.png" class="modal-image" alt="web_image" style="width:100%;">
+<img src="image/blog_prototype_02.png" class="modal-image" alt="web_image" style="width:100%;">
+</div>
+  
+<div class="w3-display-left">
+<button class="w3-button w3-black" onclick="nextprv(-1)">&#10094;</button>
+</div>
+  
+<div class="w3-display-right">
+<button class="w3-button w3-black" onclick="nextprv(1)">&#10095;</button>
+</div>
+  
+</div>
+</div>
+   
+</div>
+</div>
+
+
+<div class="container-five">
+<div class="sub-container">
+<h1 class="heading">Summary</h1>
+</div>
+
+<div>
+<div>On the homepage, we were introduced to what a website is. Nonetheless, a website is a collection web pages, which are designed for various reasons.</div>
+<div>In addition, there are other types of website aside the two mentioned above. With these in mind, you are well on your way to launching your website.</div>
+</div>
+</div>
+
+<div class="abstract row">
+<div class="article abstract-content col-4">
+<div style="font-weight:bold; font-size:10px;">Article</div> <div style="font-size:10px;">Understanding what a website is</div>
+</div>
+
+<div class="contributions abstract-content col-4">
+<div style="font-weight:bold; font-size:10px;">Contributions</div> <div style="font-size:10px;">Writers Lab</div>
+</div>
+
+<div class="credits abstract-content col-4">
+<div style="font-weight:bold; font-size:10px;">Credits:</div> <div style="font-size:10px;">Wikipedia / Adobe / Canva / Wordpress</div>
+</div>
+</div>
+
+</div>
+
+
+
+<div class="footer">
+
+<svg width="80" height="21" viewBox="0 0 80 21" role="img" class="logo-footer" aria-label="logo" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="34.5" cy="12.5" r="5" fill="#221935" stroke="#221935" stroke-width="5"/>
+<path d="M29.2951 9.20562L34.5 5.92316L39.7049 9.20562V15.8496L34.5 19.132L29.2951 15.8496V9.20562Z" fill="#ECE6DB" fill-opacity="0.8" stroke="#ECE6DB"/>
+<rect x="35.27" y="8.26562" width="0.570342" height="4.42804" fill="#221935"/>
+<rect x="33.1597" y="11.9746" width="0.570342" height="4.42804" fill="#221935"/>
+<rect width="0.563298" height="3.48905" transform="matrix(0.769757 0.638337 -0.660834 0.750532 36.0357 14.1885)" fill="#221935"/>
+<rect width="0.563298" height="3.48905" transform="matrix(0.769757 0.638337 -0.660834 0.750532 34.838 7.49121)" fill="#221935"/>
+<path d="M24.998 20H19.5195V12.1191C19.5195 11.5137 19.4561 11.0938 19.3291 10.8594C19.2021 10.625 18.9727 10.5078 18.6406 10.5078C18.0254 10.5078 17.7178 11.0498 17.7178 12.1338V20H12.2393V12.1191C12.2393 11.5137 12.1709 11.0938 12.0342 10.8594C11.9072 10.625 11.6777 10.5078 11.3457 10.5078C10.7402 10.5078 10.4375 11.0498 10.4375 12.1338V20H4.95898V11.0059C4.95898 9.36523 5.51074 7.97363 6.61426 6.83105C7.71777 5.67871 9.05566 5.10254 10.6279 5.10254C12.249 5.10254 13.7041 5.78613 14.9932 7.15332C16.4287 5.78613 17.8643 5.10254 19.2998 5.10254C21.126 5.10254 22.5908 5.7666 23.6943 7.09473C24.5635 8.12988 24.998 9.63867 24.998 11.6211V20ZM53.7148 0.00488281H59.1934V12.1777C59.1934 14.4141 58.6074 16.2354 57.4355 17.6416C56.7617 18.4521 55.9023 19.0967 54.8574 19.5752C53.8223 20.0537 52.7578 20.293 51.6641 20.293C49.4863 20.293 47.6504 19.5605 46.1562 18.0957C44.6621 16.6309 43.915 14.834 43.915 12.7051C43.915 10.6445 44.6572 8.8623 46.1416 7.3584C47.626 5.85449 49.3838 5.10254 51.415 5.10254C51.7373 5.10254 52.2256 5.13184 52.8799 5.19043V11.2256C52.4307 10.874 51.9814 10.6982 51.5322 10.6982C50.9658 10.6982 50.4775 10.9082 50.0674 11.3281C49.667 11.7383 49.4668 12.2363 49.4668 12.8223C49.4668 13.3887 49.6768 13.877 50.0967 14.2871C50.5166 14.6875 51.0195 14.8877 51.6055 14.8877C53.0117 14.8877 53.7148 13.916 53.7148 11.9727V0.00488281ZM76.4492 13.584H68.1436C68.0166 13.1641 67.9531 12.7783 67.9531 12.4268C67.9531 11.9385 68.041 11.46 68.2168 10.9912H71C70.8047 9.90723 70.1943 9.36523 69.1689 9.36523C68.4854 9.36523 67.9287 9.6582 67.499 10.2441C67.0693 10.8203 66.8545 11.5625 66.8545 12.4707C66.8545 13.418 67.0596 14.1846 67.4697 14.7705C67.8896 15.3564 68.4365 15.6494 69.1104 15.6494C69.6572 15.6494 70.1846 15.376 70.6924 14.8291L73.8125 18.5791C72.3574 19.7217 70.7412 20.293 68.9639 20.293C66.7959 20.293 64.9746 19.5654 63.5 18.1104C62.0254 16.6553 61.2881 14.8535 61.2881 12.7051C61.2881 10.5664 62.0303 8.75977 63.5146 7.28516C65.0088 5.81055 66.8398 5.07324 69.0078 5.07324C71.127 5.07324 72.9043 5.7959 74.3398 7.24121C75.7852 8.67676 76.5078 10.4492 76.5078 12.5586C76.5078 12.7734 76.4883 13.1152 76.4492 13.584Z" fill="#221935"/>
+</svg>
+
+
+<div class="alignment-section">
+<div class="footercontact">
+<div class="contact">
+<div class="contact-heading">Contact</div>
+<div class="mail-container" style="font-weight:bold; color:#757575;">Via: <a href="#" class="contact-mail-link">mail <sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a></div>
+</div>
+
+<div class="location">
+<div class="location-heading">Location</div>
+<div class="location-container" style="font-weight:bold; color:#757575;">Base: <span class="location-base">Worldwide</span></div>
+</div>
+</div>
+
+<div class="footercopyright">
+<div><span class="copyrightsign">Complete &copy; .</span>
+<span id="year"></span></div>
+</div>
+</div>
+
+</div>
+
+
+<script>
+var modalslide = 1;
+showimage(modalslide);
+
+function nextprv(n) {
+  showimage(modalslide += n);
+}
+
+function showimage(n) {
+  var i;
+  var slideimage = document.getElementsByClassName("modal-image");
+  if (n > slideimage.length) 
+    {
+     modalslide = 1
+    }
+  if (n < 1) 
+    {
+     modalslide = slideimage.length
+    }
+  for (i = 0; i < slideimage.length; i++)
+    {
+     slideimage[i].style.display = "none";  
+    }
+  slideimage[modalslide-1].style.display = "block";  
+}
+
+
+var closemodal = document.getElementById('blog-modal-image');
+
+window.onclick = function(event) {
+  if (event.target == closemodal) 
+    {
+     closemodal.style.display = "none";
+    }
+}
+
+
+const newyear = new Date();
+document.getElementById("year").innerHTML = newyear.getFullYear();
+</script>            
+</body>
+</html>
